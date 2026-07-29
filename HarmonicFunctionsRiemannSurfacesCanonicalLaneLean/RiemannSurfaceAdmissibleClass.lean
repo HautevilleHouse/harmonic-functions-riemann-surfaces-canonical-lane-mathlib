@@ -1,0 +1,16 @@
+import canonicalLaneMathlib.AdmissibleClass
+import HarmonicFunctionsRiemannSurfacesCanonicalLaneLean.HarmonicFunctionLayer
+import HarmonicFunctionsRiemannSurfacesCanonicalLaneLean.RiemannSurfaceObjects
+
+namespace HautevilleHouse
+namespace HarmonicFunctionsRiemannSurfacesCanonicalLaneLean
+
+structure RiemannSurfaceAdmissibleClass where
+  object : RiemannSurfaceTheoremObject
+  harmonicLayer : HarmonicFunctionLayerCertificate
+  endpointSatisfied : Prop
+  remainderRecorded : Prop
+  gateWitness : endpointSatisfied ∨ remainderRecorded
+
+end HarmonicFunctionsRiemannSurfacesCanonicalLaneLean
+end HautevilleHouse
